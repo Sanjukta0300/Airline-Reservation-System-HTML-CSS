@@ -1,0 +1,85 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://travel.prwave.ro/wp-content/uploads/2015/06/antonov1.jpg);
+	background-color: #000;
+	background-size: center;
+	background-position: center;
+	
+}
+.form-box
+{
+	width: 450px;
+	border: 1px solid #ced4da;
+	margin: 10% auto 20px;
+}
+.radio-btn
+{
+	margin:10px 20px;
+	margin:0 20px;
+}
+.radio-btn .btn
+{
+	margin: 20px 10px 0;
+	box-shadow: none;
+}
+.radio-btn .btn::after
+{
+	content: '';
+	height: 15px;
+	width: 15px;
+	top: -2px;
+	left: -1px;
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	border: 3px solid #fff;
+	visibility: visible;
+	border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+	content: '';
+	background-color: #000;
+	transition: 0.5s;
+}
+.radio-btn span
+{
+	color: #fff;
+	margin-right: 5px;
+	font-size: 18px;
+}
+.form
+{
+	padding: 0 20px 20px;
+}
+
+.input-grp
+{
+	color: #fff !important;
+	width:200px;
+	display: inline-block;
+}
+.input-grp .box
+{
+	width:400px;
+}
+.flight
+{
+	width: 200%;
+	position: center;
+	padding: 10px 0 !important;
+	font-size: 16px !important;
+	border: 1px solid #0926ef !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	border-radius: 10px !important;
+	cursor: pointer;
+}
+
+.flight:hover
+{
+	border: 1px solid #f44336 !important;
+	background:#f44336 !important;
+	color: #transparent !important;
+	transition: 0.5s;
+}
